@@ -4,20 +4,22 @@
 
 ```bash
 brew tap creallo/tap
-brew install --cask creallo-3d-viewer
+brew install --cask creallo-atlas
 ```
 
 한 줄로도 됩니다.
 
 ```bash
-brew install --cask creallo/tap/creallo-3d-viewer
+brew install --cask creallo/tap/creallo-atlas
 ```
 
-## Creallo 3D Viewer
+## Creallo Atlas
 
 제조를 위한 로컬 3D 뷰어입니다. STEP·STL 등 13종을 열고, 치수를 재고, 살두께와
-메쉬 상태를 검사하고, 가벼운 오류를 고칩니다. **모델 파일은 업로드되지 않습니다** —
-계산은 내 컴퓨터에서 합니다.
+메쉬 상태를 검사하고, 가벼운 오류를 고칩니다.
+
+**견적 조회 과정에서 설계 파일은 서버로 전송되지 않습니다** — 계산은 내 컴퓨터에서
+합니다. 공유 링크를 만들 때는 그 파일과 이름이 크렐로에 업로드됩니다.
 
 * 홈페이지 · 내려받기: <https://download.creallo.com>
 * Apple Silicon(M1 이후) 맥에서 돕니다. 애플 공증을 받았습니다.

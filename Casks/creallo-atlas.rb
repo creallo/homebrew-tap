@@ -1,9 +1,9 @@
-cask "creallo-3d-viewer" do
+cask "creallo-atlas" do
   version "1.8.4"
   sha256 "f4d406ddc06ba59c93693169b3e06cb5d332cce2ee72852ec3bb27c48ee00ce5"
 
   url "https://download.creallo.com/Creallo3DViewer-Setup-#{version}.dmg"
-  name "Creallo 3D Viewer"
+  name "Creallo Atlas"
   desc "Local 3D viewer for manufacturing - measure, inspect and repair STEP/STL models"
   homepage "https://creallo.com/"
 
