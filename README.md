@@ -4,13 +4,28 @@
 
 ```bash
 brew tap creallo/tap
+brew trust creallo/tap
 brew install --cask creallo-atlas
 ```
 
-한 줄로도 됩니다.
+## `brew trust` 가 왜 필요한가
+
+Homebrew 는 **자기 저장소(homebrew-cask)에 없는 tap 을 그냥 설치하지 않습니다.**
+빼먹으면 이렇게 멈춥니다.
+
+```
+Error: Refusing to load cask creallo/tap/creallo-atlas from untrusted tap creallo/tap.
+```
+
+남의 컴퓨터에 프로그램을 깔아 주는 파일이니 한 번은 사람이 확인하고 넘어가라는
+뜻입니다. 이 저장소가 크렐로 것인지 확인하신 뒤 위 `brew trust` 를 한 번만
+실행하면 됩니다. 그 tap 하나만 신뢰하는 것이고 되돌리려면 `brew untap creallo/tap`
+입니다.
+
+이 cask 하나만 신뢰해도 됩니다.
 
 ```bash
-brew install --cask creallo/tap/creallo-atlas
+brew trust --cask creallo/tap/creallo-atlas
 ```
 
 ## Creallo Atlas
