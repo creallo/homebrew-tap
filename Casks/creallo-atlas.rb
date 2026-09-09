@@ -1,8 +1,8 @@
 cask "creallo-atlas" do
-  version "1.8.4"
-  sha256 "f4d406ddc06ba59c93693169b3e06cb5d332cce2ee72852ec3bb27c48ee00ce5"
+  version "1.8.7"
+  sha256 "bd05f0496d2cf68b888d30a9f0ecca604ba23347bd84b5aee40dfc1bf2864999"
 
-  url "https://download.creallo.com/Creallo3DViewer-Setup-#{version}.dmg"
+  url "https://download.creallo.com/CrealloAtlas-Setup-#{version}.dmg"
   name "Creallo Atlas"
   desc "Local 3D viewer for manufacturing - measure, inspect and repair STEP/STL models"
   homepage "https://creallo.com/"
@@ -30,7 +30,7 @@ cask "creallo-atlas" do
   # 열리지 않으므로 brew 가 먼저 막게 한다.
   depends_on arch: :arm64
 
-  app "Creallo3DViewer.app"
+  app "Creallo Atlas.app"
 
   # `brew uninstall --zap` 이 지울 것. 평소 삭제에서는 건드리지 않는다 -
   # 사용자가 만든 자료(불러오기 캐시·설정)를 말없이 지우면 안 된다.
