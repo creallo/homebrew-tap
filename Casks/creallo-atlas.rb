@@ -1,6 +1,6 @@
 cask "creallo-atlas" do
-  version "1.8.9"
-  sha256 "d07b6628288545fc0556d4d9e1491ec9ff3ed928712eb53e738ca9fcf775b522"
+  version "1.9.1"
+  sha256 "886d664aa7da593dd01dd35346fbdf130912139632945ed6ae7cff65babbd96f"
 
   url "https://download.creallo.com/CrealloAtlas-Setup-#{version}.dmg"
   name "Creallo Atlas"
