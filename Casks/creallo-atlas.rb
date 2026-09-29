@@ -2,7 +2,7 @@ cask "creallo-atlas" do
   version "1.9.1"
   sha256 "886d664aa7da593dd01dd35346fbdf130912139632945ed6ae7cff65babbd96f"
 
-  url "https://download.creallo.com/CrealloAtlas-Setup-#{version}.dmg"
+  url "https://atlas.creallo.com/download/atlas/mac/#{version}"
   name "Creallo Atlas"
   desc "Local 3D viewer for manufacturing - measure, inspect and repair STEP/STL models"
   homepage "https://creallo.com/"
