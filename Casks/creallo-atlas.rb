@@ -1,6 +1,6 @@
 cask "creallo-atlas" do
-  version "1.11.3"
-  sha256 "d192b77b3ca260115200a52b066e71c73ff0c35cb8c7c640c9c4cb6a1218b0fd"
+  version "1.12.1"
+  sha256 "1b65f16eb9fff5d964acbfc39922e1101676ce8fdd5d53c16142e5e2dcd493dc"
 
   url "https://atlas.creallo.com/download/atlas/mac/#{version}"
   name "Creallo Atlas"
