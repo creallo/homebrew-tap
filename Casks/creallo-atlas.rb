@@ -1,6 +1,6 @@
 cask "creallo-atlas" do
-  version "1.13.3"
-  sha256 "9a4f034c0ee70f0cdddca6cffc6987d8af252e0e329e04e45e23cdd112d8c63b"
+  version "1.13.11"
+  sha256 "ce53bd13a3f11f299e9649846a61c33e9984913214996ab31ec53e0118549d55"
 
   url "https://atlas.creallo.com/download/atlas/mac/#{version}"
   name "Creallo Atlas"
@@ -26,7 +26,7 @@ cask "creallo-atlas" do
   # 설치만 해 주고 갱신은 앱에 맡긴다.
   auto_updates true
 
-  # 우리 dmg 는 arm64 하나뿐이다(macos-14 러너에서 굽는다). 인텔 맥에서 받으면
+  # 우리 dmg 는 arm64 하나뿐이다(macos-15 러너에서 굽는다). 인텔 맥에서 받으면
   # 열리지 않으므로 brew 가 먼저 막게 한다.
   depends_on arch: :arm64
 
